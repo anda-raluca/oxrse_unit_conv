@@ -30,3 +30,8 @@ lb = pound
 # mole
 
 # candela
+
+# litre
+
+litre = Unit(name='litre', abbr='ltr', si=meter_cu, to_si_fun=lambda n: n * 0.001)
+ltr = litre
